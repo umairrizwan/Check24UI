@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Check24 UI Test Suite">
+  
+    <listeners>
+		<listener class-name="ExtentReportListener.ReportListener" />
+	</listeners>
+	
+<test name="UI Application test">
+    <classes>
+       
+       <class name="teststeps.HomeTest"></class> 
+       <class name="teststeps.EmailTest"></class> 
+       <class name="teststeps.FormTest"></class>
+        
+    </classes>
+  </test>
+</suite>
