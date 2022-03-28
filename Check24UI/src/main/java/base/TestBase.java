@@ -17,7 +17,7 @@ public class TestBase {
 	public TestBase() throws IOException
 	{
 	     properties = new Properties();
-	     FileInputStream inp = new FileInputStream("C:\\Config\\configuration.properties.");
+	     FileInputStream inp = new FileInputStream("C:\\Config\\configuration.properties");
 	     properties.load(inp);
 	}
 
