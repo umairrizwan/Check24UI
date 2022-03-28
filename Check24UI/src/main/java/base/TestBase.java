@@ -17,7 +17,7 @@ public class TestBase {
 	public TestBase() throws IOException
 	{
 	     properties = new Properties();
-	     FileInputStream inp = new FileInputStream("C:\\Users\\umair\\eclipse-workspace\\Check24UI\\src\\main\\java\\configuration\\configuration.properties");
+	     FileInputStream inp = new FileInputStream("C:\\Config\\configuration.properties.");
 	     properties.load(inp);
 	}
 
