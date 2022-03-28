@@ -4,7 +4,7 @@
 ## Steps to execute:
 1. Clone from https://github.com/umairrizwan/Check24UI/tree/master
 2. Open project in eclipse and extend the folder structure and copy config.properties from eclipse highlighted in screenshot and create a folder in C:\Config and paste it there <br />
-![example](https://user-images.githubusercontent.com/63503754/115511002-df846f00-a26f-11eb-8d27-ec2d5239ac17.JPG)
+![image](https://user-images.githubusercontent.com/63503754/160354731-238a9c1a-9589-421a-820f-b66c3a99d9d3.png)
 3. Now download Chromedriver.exe from here : https://chromedriver.chromium.org/downloads
 4. Create another folder in your local machine C:\Config\Driver and paste chromedriver.exe (Make sure your chrome driver version is equal to chrome browser version).
 5. Make sure that your eclipse has TestNG plugin installed.
